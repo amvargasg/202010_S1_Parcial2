@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Serie</th>
+          <th scope="col">Canal</th>
+       <th scope="col">Temporadas</th>
+
+      </thead>
+      <tbody>
+        <th scope="row"></th>
+        <tr *ngFor="let s of series">
+          <td>
+            <dd>{{s.nombre}}</dd>
+          </td>
+          <td>
+            <dd>{{s.canal}}</dd>
+          </td>
+          <td>
+            <dd>{{s.temporadas}</dd>
+          </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
